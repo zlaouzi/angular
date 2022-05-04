@@ -1,0 +1,29 @@
+<app-hello-world></app-hello-world>
+<br />
+<h3>{{ title }}</h3>
+<br />
+<h2>
+  A convenient and intuitive platform that allows teachers to visualise detailed
+  progress of their students.
+</h2>
+<app-parent></app-parent>
+<app-child>
+  <h3 question>Why YourStep?</h3>
+  <p answer>
+    Importance in mental health, Aesthetically intuitive, and A very simple
+    integration
+  </p>
+</app-child>
+<button (click)="toggleText()">Toggle text</button>
+{{ showtext }}
+<br />
+<br />
+<img [src]="itemImageUrl" />
+<!--<p [attr.attribute-you-are-targeting]= "expression"></p>-->
+<!--<div [class.sale]="onSale"-->
+<br />
+<button (click)="onSave()">Join</button>
+<app-item-details (deleteRequest)="deleteItem($event)"></app-item-details>
+<br />
+<h4>Thank you for visiting the website: {{ todaysDate | date }}</h4>
+<!--<app-sizer [(size)]= "fontSizepx" (sizeChange)= "fontSizepx"></app-sizer>-->

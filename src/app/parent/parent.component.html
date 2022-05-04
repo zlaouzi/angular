@@ -1,0 +1,4 @@
+<!--Binding method @Input-->
+<app-child [childMessage]="'Teachers to students'"></app-child>
+<!--Receiving from child (@Output)-->
+<app-child (messageEvent)="receiveMessage($event)"></app-child>

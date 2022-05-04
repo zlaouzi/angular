@@ -1,0 +1,6 @@
+ng-content,
+h2 {
+  color: rgb(64, 59, 69);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
